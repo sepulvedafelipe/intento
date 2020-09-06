@@ -14,6 +14,8 @@ request.onload = function () {
   }
 }
 
+request.send()
+
 const app = document.getElementById('root')
 
 const logo = document.createElement('img')
@@ -25,4 +27,4 @@ container.setAttribute('class', 'container')
 app.appendChild(logo)
 app.appendChild(container)
 
-request.send()
+
